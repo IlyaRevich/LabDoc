@@ -535,7 +535,7 @@ Add the following content to new_bigip_https_vs.yaml, save file and exit.
             all_profiles:
                 - http
                 - clientssl
-                -  serverssl
+                 -  serverssl
             pool: "http_pool"
         delegate_to: localhost
 
